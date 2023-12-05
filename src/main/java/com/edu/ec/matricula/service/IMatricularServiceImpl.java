@@ -58,7 +58,6 @@ public class IMatricularServiceImpl implements IMatricularService {
 		matricular.setPropietario(propietario);
 		matricular.setVehiculo(vehiculo);
 		matricular.setFechaMatricula(LocalDate.now());
-		BigDecimal valorMatricula = null;
 
 		Vehiculo vehiculoMatricula = matricular.getVehiculo();
 
